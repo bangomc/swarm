@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  meu-app:
+    image:  bangomc/showhostname:arm
+    ports:
+      - "8080:8080"
